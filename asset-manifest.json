@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Assignment7-DataVisualization/static/css/main.90be751b.css",
+    "main.js": "/Assignment7-DataVisualization/static/js/main.29faab18.js",
+    "index.html": "/Assignment7-DataVisualization/index.html",
+    "main.90be751b.css.map": "/Assignment7-DataVisualization/static/css/main.90be751b.css.map",
+    "main.29faab18.js.map": "/Assignment7-DataVisualization/static/js/main.29faab18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90be751b.css",
+    "static/js/main.29faab18.js"
+  ]
+}

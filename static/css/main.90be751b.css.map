@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.90be751b.css","mappings":"AAAA,QACI,iBACJ,CACA,EACI,iBACJ","sources":["Child1.css"],"sourcesContent":["#tweets {\r\n    position: relative;\r\n}\r\np {\r\n    position: absolute;\r\n}"],"names":[],"sourceRoot":""}
