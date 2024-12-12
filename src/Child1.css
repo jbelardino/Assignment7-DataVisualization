@@ -1,3 +1,6 @@
-.barchart{
+#tweets {
+    position: relative;
+}
+p {
     position: absolute;
 }
