@@ -58,7 +58,6 @@ class Child1 extends Component {
         .attr("y", 450).style("font-size", "18px")
         .style("font-weight", "bold").text("May")
 
-      var counter = 0;
       const marchNode = svg.append("g")
         .selectAll("circle")
         .data(marchData)
@@ -71,7 +70,6 @@ class Child1 extends Component {
           const div = d3.select("#tweets");
           const p = div.select(`p.circle-${d.idx}`);
           if (p.empty()) {
-            counter++;
             div.selectAll("p").each(function(d, i) {
               d3.select(this).style("top", `${(i+1) * 125}px`);
             });
@@ -81,7 +79,6 @@ class Child1 extends Component {
             
           } else {
             p.remove();
-            counter--;
 
             div.selectAll("p").each(function(d, i) {
               d3.select(this).style("top", `${i * 125}px`);
@@ -114,7 +111,6 @@ class Child1 extends Component {
           const div = d3.select("#tweets");
           const p = div.select(`p.circle-${d.idx}`);
           if (p.empty()) {
-            counter++;
             div.selectAll("p").each(function(d, i) {
               d3.select(this).style("top", `${(i+1) * 125}px`);
             });
@@ -124,7 +120,6 @@ class Child1 extends Component {
             
           } else {
             p.remove();
-            counter--;
 
             div.selectAll("p").each(function(d, i) {
               d3.select(this).style("top", `${i * 125}px`);
@@ -157,7 +152,6 @@ class Child1 extends Component {
           const div = d3.select("#tweets");
           const p = div.select(`p.circle-${d.idx}`);
           if (p.empty()) {
-            counter++;
             div.selectAll("p").each(function(d, i) {
               d3.select(this).style("top", `${(i+1) * 125}px`);
             });
@@ -167,7 +161,6 @@ class Child1 extends Component {
             
           } else {
             p.remove();
-            counter--;
 
             div.selectAll("p").each(function(d, i) {
               d3.select(this).style("top", `${i * 125}px`);
